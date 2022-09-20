@@ -1,0 +1,26 @@
+.counter {
+    height: 60rem;
+    width: 40rem;
+    background-color: #EEF1FF;
+    border-radius: 2rem;
+}
+
+.counter__number {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter__buttons {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.counter__button {
+    height: 50%;
+
+}

@@ -13,3 +13,10 @@ body {
     min-height: 100vh;
     background: linear-gradient(to bottom right, #B1B2FF, #EEF1FF);
 }
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
