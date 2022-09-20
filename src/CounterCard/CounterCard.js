@@ -5,21 +5,16 @@ import React from "react"
 // Functions
 class CounterCard extends React.Component {
 	constructor() {
-		super(this.props)
-		this.state = {
-			voornaam: "Joeri",
-			achternaam: "Breedveld",
-		}
+		super()
+		this.state = { number: 0 }
 	}
 
 	increase = () => {
-		let test = document.getElementById("js--number")
-		test.innerText = parseInt(test.innerText) + 1
+		this.setState({ number: (this.state.number += 1) })
 	}
 
 	decrease = () => {
-		let test = document.getElementById("js--number")
-		test.innerText = parseInt(test.innerText) - 1
+		this.setState({ number: (this.state.number -= 1) })
 	}
 
 	render() {
@@ -27,9 +22,7 @@ class CounterCard extends React.Component {
 			<>
 				<article className='counter'>
 					<section className='counter__number'>
-						<h1 className='counter__value' id='js--number'>
-							{this.props.number}
-						</h1>
+						<h1 className='counter__value'>{this.state.number}</h1>
 					</section>
 					<section className='counter__buttons'>
 						<button onClick={this.decrease} className='counter__button counter__button--decrease'>
