@@ -10,8 +10,8 @@ const CounterCard = () => {
 					<h1 className='counter__value'>0</h1>
 				</section>
 				<section className='counter__buttons'>
-					<button className='counter__button'>Decrease</button>
-					<button className='counter__button'>Increase</button>
+					<button className='counter__button counter__button--decrease'>Decrease</button>
+					<button className='counter__button counter__button--increase'>Increase</button>
 				</section>
 			</article>
 		</>

@@ -27,8 +27,36 @@
     border-radius: 1rem;
 }
 
+.counter__button:hover {
+    cursor: pointer;
+}
+
+.counter__button--increase {
+    background: #C6EBC5;
+}
+
+.counter__button--decrease {
+    background: #FA7070;
+}
+
 .counter__value {
     font-family: sans-serif;
     font-size: 400%;
     font-weight: 400;
+}
+
+.counter__button--increase:hover {
+    background: hsl(118, 49%, 75%);
+}
+
+.counter__button--increase:active {
+    background: hsl(118, 49%, 65%);
+}
+
+.counter__button--decrease:hover {
+    background: hsl(0, 93%, 61%);
+}
+
+.counter__button--decrease:active {
+        background: hsl(0, 93%, 51%);
 }
