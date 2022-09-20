@@ -1,6 +1,6 @@
 // Imports
 import "./App.css"
-import CounterCard from "../CounterCard/CounterCard"
+import CounterCard from "../components/CounterCard/CounterCard"
 
 // Functions
 const App = () => {
