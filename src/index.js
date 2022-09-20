@@ -5,7 +5,7 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 
 // Import App
-import App from "./App"
+import App from "./App/App"
 
 // Variable for root
 const root = ReactDOM.createRoot(document.getElementById("root"))

@@ -1,4 +1,5 @@
 // Imports
+import "./App.css"
 
 // Functions
 const App = () => {
