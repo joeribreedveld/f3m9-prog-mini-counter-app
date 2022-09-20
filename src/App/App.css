@@ -10,4 +10,6 @@ html {
 
 body {
     font-size: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #B1B2FF, #EEF1FF);
 }
