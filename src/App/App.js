@@ -6,7 +6,8 @@ import CounterCard from "../CounterCard/CounterCard"
 const App = () => {
 	return (
 		<>
-			<CounterCard />
+			<CounterCard number={100} />
+			<CounterCard number={200} />
 		</>
 	)
 }
